@@ -41,7 +41,7 @@ Out-File -FilePath "ips-bad.tmp"
 Out-File -FilePath "iptables.bash"
 
 # Use a switch statement to create an IPTables and Windows firewall ruleset with the assignment from class that blocks the IPs.
-$firewallType = 'Windows' # Change this to 'IPTables' to generate IPTables rules
+$firewallType = 'Windows'
 
 switch ($firewallType) {
     "Windows" {
